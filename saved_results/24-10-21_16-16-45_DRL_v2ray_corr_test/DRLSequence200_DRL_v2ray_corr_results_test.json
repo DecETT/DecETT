@@ -1,0 +1,60 @@
+{
+  "Task": "DRLSequence200_DRL_v2ray_corr",
+  "WorkTime": "2024-10-21 16:16:53",
+  "Params": {
+    "mode": "test",
+    "model_file": "v2ray/decett_v2ray.pkl",
+    "epochs": 1,
+    "batch_size": 128,
+    "lr": 0.001,
+    "device": "cuda:0",
+    "dataset": "v2ray_corr",
+    "path": "",
+    "class_num": 54,
+    "label": "app_label",
+    "max_packet_len": 3000,
+    "feature": "DRLSequence200",
+    "min_num_pkts": 3,
+    "max_num_pkts": 200,
+    "valid_ratio": 0,
+    "test_ratio": 1.0,
+    "max_size": 0,
+    "model": "DRL",
+    "loss": "DRLLoss_GRL",
+    "recon_loss": true,
+    "random_seed": 42,
+    "verbose": true
+  },
+  "Samples": {
+    "Train": null,
+    "Val": null,
+    "Test": 50207
+  },
+  "Time": {
+    "Preprocess": null,
+    "Model load": 2.4073598384857178,
+    "Train": null,
+    "Val": null,
+    "Test": 5.274420976638794
+  },
+  "Metrics": {
+    "Accuracy": 0.8022586491923437,
+    "Balanced Accuracy": 0.7627675780856696,
+    "Precision(Macro)": 0.773672992681393,
+    "Recall(Macro)": 0.7627675780856696,
+    "F1(Macro)": 0.7657304545534759,
+    "JaccardScore(Macro)": 0.6345216772335008,
+    "Precision(Micro)": 0.8022586491923437,
+    "Recall(Micro)": 0.8022586491923437,
+    "F1(Micro)": 0.8022586491923437,
+    "JaccardScore(Micro)": 0.6698095950777417,
+    "Precision(Weighted)": 0.8034388062765153,
+    "Recall(Weighted)": 0.8022586491923437,
+    "F1(Weighted)": 0.801229375249818,
+    "JaccardScore(Weighted)": 0.6802949203390241,
+    "ROC_AUC_ovr(Macro)": null,
+    "ROC_AUC_ovr(Weighted)": null,
+    "ROC_AUC_ovo(Macro)": null,
+    "ROC_AUC_ovo(Weighted)": null
+  }
+}

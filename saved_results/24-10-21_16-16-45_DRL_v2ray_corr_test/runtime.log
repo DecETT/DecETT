@@ -1,0 +1,16 @@
+2024-10-21 16:16:45.050 | INFO     | __main__:initialize:35 - Work dir: /home/******/DecETT
+2024-10-21 16:16:45.050 | INFO     | __main__:initialize:36 - Work time: 2024-10-21 16:16:45
+2024-10-21 16:16:45.050 | INFO     | __main__:<module>:53 - Task info: Feature extractor: DRLPacketSizeSequence; Model: DecETT; Loss: DecETT_Loss
+2024-10-21 16:16:45.050 | INFO     | __main__:<module>:55 - Loading dataset...
+2024-10-21 16:16:45.162 | INFO     | __main__:<module>:62 - Load stored data success! Time cost: 0.11s
+2024-10-21 16:16:45.162 | INFO     | __main__:<module>:80 - Split data success!
+2024-10-21 16:16:45.162 | INFO     | __main__:<module>:83 - ----------- Testing -----------
+2024-10-21 16:16:47.570 | INFO     | __main__:<module>:89 - Load model success! Path: /home/******/DecETT/saved_models/v2ray/decett_v2ray.pkl
+2024-10-21 16:16:47.571 | INFO     | test:test:6 - Start Testing...
+2024-10-21 16:16:52.842 | INFO     | test:test:34 - Model DRL Testing...
+2024-10-21 16:16:52.846 | INFO     | test:test:38 - Test:
+Accuracy: 0.802
+
+2024-10-21 16:16:52.846 | INFO     | __main__:<module>:94 - ----------- Evaluation -----------
+2024-10-21 16:16:53.565 | INFO     | __main__:<module>:104 - Finish!
+
