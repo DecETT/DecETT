@@ -2,7 +2,7 @@
 
 Welcome to the repository of DecETT, a novel App Fingerprinting (AF) model for encrypted tunnel traffic. 
 
-Since this paper has not yet been accepted, we provide an evaluation demo for interested reviewers to validate this work.
+Since this paper has not yet been accepted, we provide an evaluation demo for interested reviewers to validate this work, including a trained model and part of our dataset.
 
 ## Requirements
 Python 3.8.16
